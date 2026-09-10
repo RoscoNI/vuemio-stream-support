@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vuemio Stream — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    max-width: 46rem;
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem 5rem;
+    color: #1c1c1e;
+    background: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6ea; background: #101014; }
+    a { color: #6aa9ff; }
+    .meta { color: #9a9aa4; }
+    h2 { border-color: #2a2a32; }
+  }
+  h1 { font-size: 1.9rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2.25rem; padding-top: .75rem; border-top: 1px solid #e5e5ea; }
+  .meta { color: #6c6c74; font-size: .92rem; margin-top: 0; }
+  ul { padding-left: 1.2rem; }
+  li { margin: .4rem 0; }
+  a { color: #0a5bd3; }
+  nav { margin-top: 3rem; display: flex; gap: 1.25rem; }
+</style>
+</head>
+<body>
+
+<h1>Vuemio Stream Privacy Policy</h1>
+<p class="meta">Last updated 10 September 2026</p>
+
+<p>
+  Vuemio Stream is an IPTV media player and electronic programme guide for Apple TV.
+  This privacy policy outlines what the app does and does not do with information.
+</p>
+
+<h2>The short version</h2>
+<p>
+  <strong>Vuemio Stream does not collect, sell, track, or share your personal data.</strong>
+  There are no user accounts, no analytics frameworks, no telemetry tracking, and no advertising.
+  Vuemio Stream operates with no proprietary backend server — nothing you watch, search, or configure
+  is ever transmitted to us.
+</p>
+
+<h2>What stays on your Apple TV</h2>
+<p>
+  All of your configuration and activity is stored strictly locally on your Apple TV:
+</p>
+<ul>
+  <li><strong>Playlist Credentials:</strong> Xtream Codes API server addresses, usernames, and passwords are encrypted and stored in the secure Apple TV Keychain.</li>
+  <li><strong>Playlists &amp; EPG:</strong> Channel lists, categories, and electronic programme guide listings are stored locally in an on-device SQLite database.</li>
+  <li><strong>Watch History &amp; Favourites:</strong> Continue Watching playback positions, marked favourite channels, and recent streams are kept locally on your device.</li>
+  <li><strong>Preferences:</strong> Tile sizing, audio/subtitle preferences, and player buffer settings.</li>
+</ul>
+<p>
+  You can erase all stored data and credentials at any time using
+  <em>Settings → General → Reset All Settings to Defaults</em>, or by deleting the app from your Apple TV.
+</p>
+
+<h2>Connections the app makes</h2>
+<p>
+  To function as a media player, Vuemio Stream makes direct outgoing connections from your Apple TV:
+</p>
+<ul>
+  <li>
+    <strong>Your IPTV Provider:</strong> When loading playlists, EPG listings, or streaming video,
+    your Apple TV connects directly to your provider's server. As with any direct network request,
+    your provider will see your IP address and stream requests according to their own terms and privacy policy.
+  </li>
+  <li>
+    <strong>The Movie Database (TMDB):</strong> To display movie and series posters, backdrops,
+    and metadata, Vuemio Stream queries TMDB directly via secure HTTPS (api.themoviedb.org and image.tmdb.org).
+    No personal account data or playlist credentials are ever shared with TMDB.
+  </li>
+</ul>
+
+<h2>Video Streaming and Content</h2>
+<p>
+  Vuemio Stream is a media player only. It does not host, provide, or distribute media streams.
+  Video playback is decoded and rendered locally on your device hardware using Apple's AVPlayer
+  and mpv rendering. Streams are never proxied or recorded by Vuemio Stream.
+</p>
+
+<h2>Purchases and Pricing</h2>
+<p>
+  Vuemio Stream is 100% free to download and use on tvOS. There are no paid tiers, subscriptions,
+  or in-app purchases.
+</p>
+
+<h2>Children</h2>
+<p>
+  Vuemio Stream does not knowingly collect any personal information from children or any other users.
+</p>
+
+<h2>Contact</h2>
+<p>
+  If you have questions about privacy or Vuemio Stream:
+  <a href="mailto:rickycjross@gmail.com">rickycjross@gmail.com</a>
+</p>
+
+<nav>
+  <a href="index.html">← Back to Overview</a>
+  <a href="support.html">Support &amp; FAQ</a>
+</nav>
+
+</body>
+</html>
